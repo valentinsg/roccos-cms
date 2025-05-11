@@ -33,5 +33,9 @@
     "printWidth": 100,
     "bracketSpacing": false,
     "singleQuote": true
-  }
+  },
+  "engines": {
+  "node": ">=18",
+  "pnpm": ">=8"
+}
 }
