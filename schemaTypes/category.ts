@@ -8,11 +8,7 @@ const category = {
       title: "Nombre",
       type: "string",
     },
-    {
-      name: "_id",
-      title: "ID",
-      type: "string",
-    },
+
     {
       name: "description",
       title: "Descripción",
