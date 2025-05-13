@@ -9,6 +9,14 @@ const product = {
       type: 'string',
     },
     {
+      name: "image",
+      title: "Imagen",
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+    },
+    {
       name: 'description',
       title: 'Descripción',
       type: 'text',
