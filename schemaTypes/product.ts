@@ -75,7 +75,7 @@ const product = {
       name: 'dailySpecial',
       title: 'Daily Special',
       type: 'boolean',
-      hidden: ({ parent }: { parent: any }) => parent?.sucursal !== 'roccos',
+      hidden: ({ parent }: { parent: any }) => parent?.sucursal !== 'roccos-2',
       initialValue: false,
     }
   ],
