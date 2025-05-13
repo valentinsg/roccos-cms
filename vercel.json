@@ -1,5 +1,9 @@
 {
-    "buildCommand": "pnpm build",
-    "outputDirectory": ".next",
-    "framework": "nextjs"
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "routes": [
+        { "handle": "filesystem" },
+        { "src": "/studio/.*", "dest": "/studio/index.html" },
+        { "src": ".*", "status": 301, "headers": { "Location": "/studio/" } }
+    ]
 }
